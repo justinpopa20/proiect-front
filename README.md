@@ -9,6 +9,12 @@ Acest proiect va fi construit pe parcursul cursului de front-end. Fiecare cursan
 4. Console: npm run start
 5. Daca nu apar erori, acceseaza http://localhost:8000/index.html in browser
 
+## Tehnologii folosite
+HTML
+CSS (Bootstrap)
+Javascript
+AngularJS v1.5
+
 ## Structura proiectului
 
 ```
