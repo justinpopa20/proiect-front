@@ -2,8 +2,8 @@ Acest proiect va fi construit pe parcursul cursului de front-end. Fiecare cursan
 
 ## Pasi instalare proiect
 
-1. Instalare GIT [link][git]
-2. Instalare Node si Npm [link][npm]
+1. Instalare GIT https://git-scm.com/download/win
+2. Instalare Node si Npm https://nodejs.org/en/download/
 2. Clonare proiect - din consola : git clone https://github.com/justinpopa20/proiect-front.git
 3. Deschidere proiect in consola (cd proiect-front)
 4. Console: npm run start
