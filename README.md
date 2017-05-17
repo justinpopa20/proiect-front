@@ -1,3 +1,5 @@
+## Curs front-end BoogIT Academy
+
 Acest proiect va fi construit pe parcursul cursului de front-end. Fiecare cursant are un modul dedicat unde va comite temele.
 
 ## Pasi instalare proiect
