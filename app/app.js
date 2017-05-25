@@ -1,13 +1,21 @@
 'use strict';
 
-// Declare app level module which depends on views, and components
-angular.module('myApp', [
-  'ngRoute',
-  'myApp.view1',
-  'myApp.version'
-]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+(function (ng) {
+  // Declare app level module which depends on views, and components
+  ng.module('BoogIT', [
+      'ui.router',
+      'BoogIT.Iustinian'
+    ])
+    .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
+      $stateProvider.state('home', {
+        url: '/'
+      });
+      $urlRouterProvider.otherwise(function ($injector) {
+        var $state = $injector.get('$state');
+        $state.go('home');
+      });
+
+      $locationProvider.html5Mode(true);
+    }])
+}).call(this, this.angular);
