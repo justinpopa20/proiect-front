@@ -1,0 +1,35 @@
+.page{
+	width: 780px;
+	margin: auto;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+.infophoto{
+	height: 250px;
+}
+
+.info{
+	float: left;
+}
+
+.photo{
+	float: right;
+}
+.section{
+	margin-bottom: 70px;
+}
+.sec-left{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+.sec-right{
+	margin-left: 150px;
+
+
+}
+.h2{
+	font-size: 28px;
+	color: blue;
+}
